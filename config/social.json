@@ -1,0 +1,17 @@
+[
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/shamimakhonzada",
+    "icon": "FaGithub"
+  },
+  {
+    "platform": "LinkedIn",
+    "url": "https://linkedin.com/in/shamimshoaib",
+    "icon": "FaLinkedinIn"
+  },
+  {
+    "platform": "Portfolio",
+    "url": "https://sshoaib.vercel.app/en",
+    "icon": "FaGlobe"
+  }
+]

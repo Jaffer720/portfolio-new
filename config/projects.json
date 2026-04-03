@@ -1,0 +1,68 @@
+[
+  {
+    "id": "project-1",
+    "title": "Dawa Capital Website",
+    "description": "Modern responsive frontend for an AI-powered private capital markets platform (built with .NET backend).",
+    "longDescription": "Developed the complete frontend (UI/UX) for Dawa Capital – an AI-powered operating system for private capital markets. The platform automates the full deal lifecycle (deal creation, KYC/AML compliance, investor matching, data rooms, escrow/settlement, and secondary trading) using governed AI agents. Built a clean, modern, and highly responsive interface using HTML, CSS, and JavaScript focused on clarity, compliance transparency, and smooth user experience for issuers, investors, and brokers.",
+    "tags": ["HTML", "CSS", "JavaScript", "Frontend", "UI/UX", "Responsive Design", ".NET"],
+    "imageUrl": "https://ik.imagekit.io/110shamim/dawa%20capital?updatedAt=1774649987044",
+    "liveUrl": "https://www.dawa.capital/",
+    "githubUrl": "https://github.com/shamimakhonzada",
+    "featured": false
+  },
+  {
+    "id": "project-2",
+    "title": "AI Interview Platform",
+    "description": "Full-stack AI-powered platform for mock interviews, real interviews, resume tools, and career counseling.",
+    "longDescription": "A complete full-stack platform for AI-powered mock interviews and real interview simulations. Features include a resume builder, resume improvement tool, career counseling chatbot, and role-based access control for companies and candidates. Built both frontend and backend with real-time AI integration using Next.js, Prisma, Firebase, Gemini API, and Ollama LLM.",
+    "tags": ["Next.js", "Prisma", "Firebase", "Gemini API", "Ollama", "AI", "Full Stack"],
+    "imageUrl": "https://ik.imagekit.io/110shamim/interviewer-ai",
+    "liveUrl": "https://interviewer-fr.vercel.app",
+    "githubUrl": "https://github.com/shamimakhonzada",
+    "featured": true
+  },
+  {
+    "id": "project-3",
+    "title": "Army Canine – Dog Breeding System",
+    "description": "Full-stack pedigree tracking system with inbreeding risk calculation for dog breeders.",
+    "longDescription": "Full-stack web application that tracks dog family history up to 5 generations, automatically calculates inbreeding risks to prevent genetic diseases, and helps breeders make informed, safe breeding decisions. Includes complete user interface and backend logic.",
+    "tags": ["Full Stack", "Next.js", "Database", "Genetics", "Web App"],
+    "imageUrl": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/shamimakhonzada",
+    "featured": true
+  },
+  {
+    "id": "project-4",
+    "title": "Weather Forecast App",
+    "description": "Real-time weather app with current conditions, hourly & 7-day forecast using Weather API.",
+    "longDescription": "A clean and modern Weather Application that fetches real-time weather data using a Weather API (OpenWeatherMap). Features include current temperature, weather conditions, hourly forecast, 7-day forecast, location-based search, and beautiful UI with dynamic backgrounds. Built with Flutter for smooth cross-platform performance.",
+    "tags": ["Flutter", "Weather API", "REST API", "Mobile App", "UI/UX"],
+    "imageUrl": "https://ik.imagekit.io/110shamim/weather",
+    "liveUrl": "https://weather-skd.vercel.app/",
+    "githubUrl": "https://github.com/shamimakhonzada",
+    "featured": false
+  },
+  {
+    "id": "project-5",
+    "title": "GearAid – Vehicle Help App",
+    "description": "Flutter mobile app that connects drivers with mechanics during breakdowns with real-time tracking.",
+    "longDescription": "Award-winning final year project: A Flutter mobile application designed as 'first-aid for vehicles'. Connects users in distress with nearby mechanics using real-time location tracking, booking system, and secure payments. Presented at UOBS Tech Expo 2024 and received Certificate of Appreciation from University of Baltistan.",
+    "tags": ["Flutter", "Firebase", "Real-time", "Mobile App", "Geolocation"],
+    "imageUrl": "https://ik.imagekit.io/110shamim/gear-aid",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/shamimakhonzada",
+    "featured": true
+  },
+  {
+    "id": "project-6",
+    "title": "E-Commerce App",
+    "description": "Full-featured Flutter mobile shopping app with real-time updates and secure payments.",
+    "longDescription": "Complete cross-platform e-commerce mobile application built with Flutter and Firebase. Includes product catalog, shopping cart, user authentication, real-time inventory updates, and secure payment integration. Designed with clean, responsive UI/UX.",
+    "tags": ["Flutter", "Firebase", "E-Commerce", "Real-time", "Mobile"],
+    "imageUrl": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/shamimakhonzada",
+    "featured": false
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "id": "exp-1",
+    "company": "Bluell AB",
+    "location": "Rawalpindi, Pakistan",
+    "position": "Full Stack Developer",
+    "duration": "Jan 2026 - Present",
+    "isCurrent": true,
+    "startDate": "2026-01-01",
+    "description": "Full-Stack Developer building scalable, AI-powered web applications (React, Next.js, Node.js) | Developed modern SPA and server-rendered solutions with clean architecture | Designed and optimized REST APIs with secure authentication | Integrated LLM-based features to enhance product intelligence | Collaborated with cross-functional teams to deliver high-performance, production-ready applications.",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Nest.js",
+      "Node.js",
+      "Express.js",
+      "Middleware",
+      "Oauth2",
+      "Jwt",
+      "bcrypt (password hashing)",
+      "cookie-based authentication",
+      "Prisma ORM",
+      "MongoDB",
+      "Tanstack Query (React Query)",
+      "Zustand",
+      "PostgreSQL",
+      "Neon DB",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "REST APIs",
+      "resend (email service)",
+      "nodemailer (email service)",
+      "AI integrations (OpenAI, Gemini)"
+    ],
+    "projects": [
+      {
+        "name": "AI-Interview Platform",
+        "url": "https://bluell-fr.vercel.app/"
+      },
+      {
+        "name": "Recruitment System",
+        "url": "https://recruitment-system.vercel.app/"
+      }
+    ],
+    "type": "work"
+  },
+  {
+    "id": "exp-2",
+    "company": "Dev Artitect",
+    "location": "Remote, Pakistan",
+    "position": "Full Stack Developer",
+    "duration": "Dec 2025 - Present",
+    "isCurrent": true,
+    "startDate": "2025-12-01",
+    "description": "Full-Stack Developer Frontend focused, building scalable, AI-powered web applications (React, Next.js, tailwind CSS, Redux toolkit, RTK Query) | Developed modern SPA and server-rendered solutions with clean architecture | Designed and optimized UI components | Integrated Backend services via REST APIs | Collaborated with cross-functional teams to deliver high-performance, production-ready applications.",
+    "technologies": [
+      "Next.js",
+      "React",
+      "PWA",
+      "Redux toolkit",
+      "RTK Query",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "UI/UX",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "REST APIs Integrations"
+    ],
+    "projects": [
+      {
+        "name": "SOW Agent",
+        "url": "https://neofluxai.com/"
+      },
+      {
+        "name": "Easy School (LMS)",
+        "url": "https://easyschoolhouse.site/"
+      },
+      {
+        "name": "Myshow AI",
+        "url": "https://www.myshowsai.com/"
+      },
+      {
+        "name": "Alfa Core Education (LMS)",
+        "url": "https://portal.alfacore.com.au/"
+      },
+      {
+        "name": "Shovel House",
+        "url": "https://shovelhouse.com/"
+      }
+    ],
+    "type": "work"
+  },
+  {
+    "id": "exp-3",
+    "company": "Silverthread Labs",
+    "location": "Rawalpindi, Pakistan",
+    "position": "Junior NextJS Developer",
+    "duration": "Jun 2025 - Dec 2025",
+    "isCurrent": false,
+    "startDate": "2025-06-01",
+    "endDate": "2025-12-31",
+    "description": "Full-Stack Developer building scalable, AI-powered web applications and Extensions (React, Next.js, wxt, Shadcn, Tailwind CSS ) | Developed modern AI featured applications and tools and templates | Designed and optimized REST APIs with serverless architecture and secure authentication | Integrated LLM-based features to enhance product intelligence | Collaborated with cross-functional teams to deliver high-performance, production-ready applications.",
+    "technologies": [
+      "Next.js",
+      "React",
+      "wxt",
+      "Drizzle ORM",
+      "Neon DB",
+      "PostgreSQL",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Better Auth",
+      "suppabase",
+      "nuqs",
+      "Tanstack Query (React Query)",
+      "resend (email service)",
+      "Starter templates",
+      "REST APIs (serverless)",
+      "Middleware",
+      "Oauth2",
+      "Jwt",
+      "bcrypt (password hashing)",
+      "cookie-based authentication",
+      "AI integrations (OpenAI, Gemini)",
+      "monorepo tools (turborepo)"
+    ],
+    "projects": [
+      {
+        "name": "ezly webApp and Extension",
+        "url": "https://www.getezly.com/"
+      },
+      {
+        "name": "Designrift",
+        "url": "https://www.designrift.dev/"
+      },
+      {
+        "name": "Chatbot Starter Template",
+        "url": "https://github.com/silverthreadlabs/ai-chatbot"
+      },
+      {
+        "name": "Bloggen-saas-starter-better-auth Starter Template",
+        "url": "https://github.com/silverthreadlabs/bloggen-saas-starter-better-auth"
+      },
+      {
+        "name": "Bloggen-auth-starter Starter Template",
+        "url": "https://github.com/silverthreadlabs/bloggen-auth-starter-better-auth"
+      }
+    ],
+    "type": "work"
+  },
+  {
+    "id": "exp-4",
+    "company": "Curli Dev",
+    "location": "Remote, Norway",
+    "position": "NextJS Developer",
+    "duration": "Feb 2024 - May 2024`",
+    "isCurrent": false,
+    "startDate": "2024-02-01",
+    "endDate": "2024-05-30",
+    "description": "Fronted Developer building web pages using (React, Next.js, Tailwind CSS) | Developed UI pages with clean UX and architecture | Collaborated with cross-functional teams to deliver high-performance, production-ready applications.",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Material UI",
+      "UI/UX"
+    ],
+    "projects": [
+      {
+        "name": "Guest Management and Reservation for Weddings",
+        "url": "https://github.com/CurliDev/mother-box"
+      }
+    ],
+    "type": "work"
+  },
+  {
+    "id": "exp-5",
+    "company": "NetBots",
+    "location": "Skardu, Pakistan",
+    "position": "Flutter Developer",
+    "duration": "May 2023 - Dec 2024",
+    "startDate": "2023-05-01",
+    "isCurrent": false,
+    "endDate": "2024-12-31",
+    "description": "Full-Stack Developer Frontend focused, building scalable, AI-powered web applications (React, Next.js, Formik & yup, ExpressJs MongoDB ) | Developed modern SPA and server-rendered solutions with clean architecture | Designed and optimized UI components | Integrated Backend services via REST APIs | Collaborated with cross-functional teams to deliver high-performance, production-ready applications.",
+    "technologies": [
+      "ReactJs",
+      "JavaScript (ES6+)",
+      "Material UI",
+      "Context API",
+      "Formik (form state management)",
+      "Yup (form validation)",
+      "Node.js",
+      "Express.js",
+      "Middleware",
+      "Oauth2",
+      "Jwt",
+      "bcrypt (password hashing)",
+      "cookie-based authentication",
+      "REST APIs",
+      "UI/UX"
+    ],
+    "projects": [
+      {
+        "name": "Rinor",
+        "url": "https://rinor-site-latest-version.vercel.app/"
+      },
+      {
+        "name": "Rinor DMC",
+        "url": "https://github.com/Jaffer720/DMC-listings-rinor"
+      },
+      {
+        "name": "Warehouse Management System",
+        "url": "https://github.com/Jaffer720/IMS/tree/dev-jaffer"
+      },
+      {
+        "name": "Piazza Api",
+        "url": "https://github.com/SyedSaqlainAbbas110/node_api_for_piazza"
+      }
+    ],
+    "type": "work"
+  },
+  {
+    "id": "exp-6",
+    "company": "University of Baltistan",
+    "position": "Bachelor of Science in Computer Science",
+    "duration": "Aug 2019 - July 2024",
+    "startDate": "2019-08-01",
+    "endDate": "2024-07-31",
+    "description": "Computer Science graduate building a strong foundation in software engineering, AI, and scalable systems | Worked on real-world and research-driven projects including Gear-Aid (award-winning app), AI Interview Platform, and Lung Cancer Detection system | Gained hands-on experience in full-stack development, machine learning, and modern web technologies | Focused on problem-solving, system design, and building intelligent applications.",
+    "technologies": [
+      "Java",
+      "Python",
+      "C++",
+      "Data Structures",
+      "Algorithms",
+      "Machine Learning",
+      "Computer Vision",
+      "Databases"
+    ],
+    "type": "education"
+  }
+]
