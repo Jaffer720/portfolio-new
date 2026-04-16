@@ -7,6 +7,7 @@ import { getProjects } from "@/lib/config";
 import { motion, AnimatePresence } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Marquee } from "@/components/ui/marquee";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { ExternalLink, ArrowRight } from "lucide-react";
@@ -36,30 +37,65 @@ export function ProjectsSection() {
         subtitle="Here are some of my recent projects. I've worked on a variety of applications from e-commerce to data visualization."
       />
       
-      <motion.div 
-        className="flex flex-wrap gap-2 justify-center mb-12"
+      <motion.div
+        className="mb-12 space-y-0.5"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true, margin: "-100px" }}
       >
-        <Button 
-          variant={selectedTag === null ? "default" : "outline"} 
-          className="rounded-full" 
-          onClick={() => setSelectedTag(null)}
-        >
-          All
-        </Button>
-        {allTags.map((tag) => (
-          <Button 
-            key={tag} 
-            variant={selectedTag === tag ? "default" : "outline"} 
-            className="rounded-full"
-            onClick={() => setSelectedTag(tag)}
+        {/* Reset filter */}
+        <div className="flex justify-center">
+          <Badge
+            variant={selectedTag === null ? "default" : "outline"}
+            className="cursor-pointer px-3 py-3 text-sm rounded-full"
+            onClick={() => setSelectedTag(null)}
           >
-            {tag}
-          </Button>
-        ))}
+            All Projects
+          </Badge>
+        </div>
+
+        {/* Row 1 – left to right */}
+        <Marquee pauseOnHover reverse={false} repeat={4} className="[--duration:50s]">
+          {allTags.filter((_, i) => i % 3 === 0).map((tag) => (
+            <Badge
+              key={tag}
+              variant={selectedTag === tag ? "default" : "secondary"}
+              className="cursor-pointer px-3 py-3 text-xs rounded-full whitespace-nowrap shrink-0 hover:opacity-80 transition-opacity"
+              onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
+            >
+              {tag}
+            </Badge>
+          ))}
+        </Marquee>
+
+        {/* Row 2 – right to left */}
+        <Marquee pauseOnHover reverse={false} repeat={4} className="[--duration:50s]">
+          {allTags.filter((_, i) => i % 3 === 1).map((tag) => (
+            <Badge
+              key={tag}
+              variant={selectedTag === tag ? "default" : "outline"}
+              className="cursor-pointer px-3 py-3 text-xs rounded-full whitespace-nowrap shrink-0 hover:opacity-80 transition-opacity"
+              onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
+            >
+              {tag}
+            </Badge>
+          ))}
+        </Marquee>
+
+        {/* Row 3 – left to right */}
+        <Marquee pauseOnHover reverse={false} repeat={4} className="[--duration:50s]">
+          {allTags.filter((_, i) => i % 3 === 2).map((tag) => (
+            <Badge
+              key={tag}
+              variant={selectedTag === tag ? "default" : "secondary"}
+              className="cursor-pointer px-3 py-3 text-xs rounded-full whitespace-nowrap shrink-0 hover:opacity-80 transition-opacity"
+              onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
+            >
+              {tag}
+            </Badge>
+          ))}
+        </Marquee>
       </motion.div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

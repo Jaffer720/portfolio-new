@@ -20,7 +20,7 @@ export function AboutSection() {
     <SectionContainer id="about">
       <SectionHeading
         title="About Me"
-        subtitle="I'm a passionate web developer with a focus on creating beautiful, functional, and user-friendly experiences."
+        subtitle="I'm a passionate Full Stack Developer with a focus on creating functional, and user-friendly experiences."
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -34,25 +34,25 @@ export function AboutSection() {
           <div className="space-y-4 text-muted-foreground">
             <p>
               I specialize in building modern web applications using the latest
-              technologies. My journey in web development started over 5 years
-              ago, and I&apos;ve been passionate about creating intuitive and
+              technologies. I&apos;ve been passionate about creating intuitive and
               performant digital experiences ever since.
             </p>
             <p>
-              With a strong foundation in both frontend and backend
-              technologies, I enjoy working across the full stack. I&apos;m
-              constantly learning and staying up to date with the latest web
-              development trends and best practices.
+              I work across the full stack using React, Next.js, Node.js and
+              NestJS along with tools like Prisma, MongoDB, PostgreSQL and
+              Tailwind CSS. I also enjoy integrating AI into products using
+              OpenAI, Gemini and the Vercel AI SDK to make apps smarter and
+              more useful.
             </p>
             <p>
-              When I&apos;m not coding, you can find me exploring new
-              technologies, contributing to open-source projects, or sharing my
-              knowledge through blog posts and community engagement.
+              Outside of client work I contribute to open source projects like
+              Designrift, Bloggen starter templates and AI chatbot tools. I
+              care about writing clean code, building things that work well and
+              always learning something new.
             </p>
           </div>
         </motion.div>
 
-        <div className="space-y-8">
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -66,7 +66,7 @@ export function AboutSection() {
               ))}
             </div>
           </motion.div>
-
+       
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -96,7 +96,7 @@ export function AboutSection() {
               </div>
             </motion.div>
           )}
-        </div>
+       
       </div>
     </SectionContainer>
   );

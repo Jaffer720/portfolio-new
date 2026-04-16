@@ -35,12 +35,12 @@
     ],
     "projects": [
       {
-        "name": "AI-Interview Platform",
-        "url": "https://bluell-fr.vercel.app/"
-      },
-      {
         "name": "Recruitment System",
         "url": "https://recruitment-system.vercel.app/"
+      },
+      {
+        "name": "AI-Interview Platform",
+        "url": "https://bluell-fr.vercel.app/"
       }
     ],
     "type": "work"
@@ -180,7 +180,7 @@
     "id": "exp-5",
     "company": "NetBots",
     "location": "Skardu, Pakistan",
-    "position": "Flutter Developer",
+    "position": "Full Stack Developer",
     "duration": "May 2023 - Dec 2024",
     "startDate": "2023-05-01",
     "isCurrent": false,
@@ -209,12 +209,16 @@
         "url": "https://rinor-site-latest-version.vercel.app/"
       },
       {
+        "name": "Warehouse Management System",
+        "url": "https://github.com/Jaffer720/IMS/tree/dev-jaffer"
+      },
+      {
         "name": "Rinor DMC",
         "url": "https://github.com/Jaffer720/DMC-listings-rinor"
       },
       {
-        "name": "Warehouse Management System",
-        "url": "https://github.com/Jaffer720/IMS/tree/dev-jaffer"
+        "name": "Avicena Healthcare",
+        "url": "https://www.avicenahealthcare.com/"
       },
       {
         "name": "Piazza Api",

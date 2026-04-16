@@ -15,6 +15,7 @@ import { FaGithub, FaLinkedinIn, FaGlobe } from "react-icons/fa";
 import { z } from "zod";
 import { useToast } from "@/hooks/use-toast";
 import { cn } from "@/lib/utils";
+import emailjs from "@emailjs/browser";
 
 const contactSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -52,21 +53,10 @@ export function ContactSection() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
+    // Validate first — catches ZodError before we even try to send
+    let parsed: ContactFormData;
     try {
-      contactSchema.parse(formData);
-      setIsSubmitting(true);
-
-      // Simulate form submission
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-
-      toast({
-        title: "Message sent!",
-        description: "Thanks for reaching out. I'll get back to you soon.",
-      });
-
-      // Reset form
-      setFormData({ name: "", email: "", message: "" });
-      setErrors({});
+      parsed = contactSchema.parse(formData);
     } catch (error) {
       if (error instanceof z.ZodError) {
         const fieldErrors: Partial<ContactFormData> = {};
@@ -77,6 +67,36 @@ export function ContactSection() {
         });
         setErrors(fieldErrors);
       }
+      return;
+    }
+
+    setIsSubmitting(true);
+    try {
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        {
+          from_name: parsed.name,
+          from_email: parsed.email,
+          message: parsed.message,
+          to_email: personalInfo.email,
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
+      );
+
+      toast({
+        title: "Message sent!",
+        description: "Thanks for reaching out. I'll get back to you soon.",
+      });
+
+      setFormData({ name: "", email: "", message: "" });
+      setErrors({});
+    } catch {
+      toast({
+        title: "Failed to send message",
+        description: "Something went wrong. Please try emailing me directly.",
+        variant: "destructive",
+      });
     } finally {
       setIsSubmitting(false);
     }

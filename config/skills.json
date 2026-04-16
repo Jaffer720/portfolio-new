@@ -6,7 +6,7 @@
   },
   {
     "name": "Next.js",
-    "level": 88,
+    "level": 90,
     "category": "frontend"
   },
   {
@@ -40,13 +40,8 @@
     "category": "backend"
   },
   {
-    "name": "Firebase",
-    "level": 93,
-    "category": "database"
-  },
-  {
     "name": "MongoDB",
-    "level": 75,
+    "level": 85,
     "category": "database"
   },
   {
@@ -55,14 +50,9 @@
     "category": "database"
   },
   {
-    "name": "OpenAI / Gemini / Ollama",
+    "name": "OpenAI / Gemini",
     "level": 82,
     "category": "ai-ml"
-  },
-  {
-    "name": "Docker",
-    "level": 68,
-    "category": "devops"
   },
   {
     "name": "Git / GitHub",
@@ -70,8 +60,68 @@
     "category": "devops"
   },
   {
-    "name": "Figma + UI/UX",
+    "name": "Shadcn UI",
+    "level": 90,
+    "category": "frontend"
+  },
+  {
+    "name": "Redux Toolkit / RTK Query",
+    "level": 85,
+    "category": "frontend"
+  },
+  {
+    "name": "Zustand",
+    "level": 80,
+    "category": "frontend"
+  },
+  {
+    "name": "Vite.js",
+    "level": 82,
+    "category": "frontend"
+  },
+  {
+    "name": "Material UI",
+    "level": 80,
+    "category": "frontend"
+  },
+  {
+    "name": "Recharts",
+    "level": 72,
+    "category": "frontend"
+  },
+  {
+    "name": "NestJS",
+    "level": 58,
+    "category": "backend"
+  },
+  {
+    "name": "REST APIs",
+    "level": 90,
+    "category": "backend"
+  },
+  {
+    "name": "Prisma ORM",
+    "level": 80,
+    "category": "backend"
+  },
+  {
+    "name": "Drizzle ORM",
+    "level": 65,
+    "category": "backend"
+  },
+  {
+    "name": "OAuth2 / JWT Auth",
+    "level": 85,
+    "category": "backend"
+  },
+  {
+    "name": "Zod",
     "level": 78,
-    "category": "design"
+    "category": "backend"
+  },
+  {
+    "name": "Vercel AI SDK",
+    "level": 78,
+    "category": "ai-ml"
   }
 ]

@@ -76,7 +76,7 @@ export function HeroSection() {
               className="flex flex-wrap gap-4 justify-center"
             >
               <ButtonLink
-                href="/Muhammad_Shamim_Shoaib_Resume.pdf"
+                href="/Muhammad-Jaffer-CV-26.3.pdf"
                 newTab={true}
               >
                 <Download /> Download Resume
