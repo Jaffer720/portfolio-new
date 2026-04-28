@@ -51,9 +51,9 @@
     "company": "Silverthread Labs",
     "location": "Rawalpindi, Pakistan",
     "position": "Junior NextJS Developer",
-    "duration": "Jun 2025 - Dec 2025",
+    "duration": "Jul 2025 - Dec 2025",
     "isCurrent": false,
-    "startDate": "2025-06-01",
+    "startDate": "2025-06-31",
     "endDate": "2025-12-31",
     "description": "Full-Stack Developer building scalable, AI-powered web applications and Extensions (React, Next.js, wxt, Shadcn, Tailwind CSS ) | Developed modern AI featured applications and tools and templates | Designed and optimized REST APIs with serverless architecture and secure authentication | Integrated LLM-based features to enhance product intelligence | Collaborated with cross-functional teams to deliver high-performance, production-ready applications.",
     "technologies": [
