@@ -1,50 +1,5 @@
 [
-  {
-    "id": "exp-1",
-    "company": "Bluell AB",
-    "location": "Rawalpindi, Pakistan",
-    "position": "Full Stack Developer",
-    "duration": "Jan 2026 - Present",
-    "isCurrent": true,
-    "startDate": "2026-01-01",
-    "description": "Full-Stack Developer building scalable, AI-powered web applications (React, Next.js, Node.js) | Developed modern SPA and server-rendered solutions with clean architecture | Designed and optimized REST APIs with secure authentication | Integrated LLM-based features to enhance product intelligence | Collaborated with cross-functional teams to deliver high-performance, production-ready applications.",
-    "technologies": [
-      "Next.js",
-      "React",
-      "Nest.js",
-      "Node.js",
-      "Express.js",
-      "Middleware",
-      "Oauth2",
-      "Jwt",
-      "bcrypt (password hashing)",
-      "cookie-based authentication",
-      "Prisma ORM",
-      "MongoDB",
-      "Tanstack Query (React Query)",
-      "Zustand",
-      "PostgreSQL",
-      "Neon DB",
-      "TypeScript",
-      "Tailwind CSS",
-      "Shadcn UI",
-      "REST APIs",
-      "resend (email service)",
-      "nodemailer (email service)",
-      "AI integrations (OpenAI, Gemini)"
-    ],
-    "projects": [
-      {
-        "name": "Recruitment System",
-        "url": "https://recruitment-system.vercel.app/"
-      },
-      {
-        "name": "AI-Interview Platform",
-        "url": "https://bluell-fr.vercel.app/"
-      }
-    ],
-    "type": "work"
-  },
+  
   {
     "id": "exp-2",
     "company": "Dev Artitect",
