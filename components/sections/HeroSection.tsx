@@ -76,7 +76,7 @@ export function HeroSection() {
               className="flex flex-wrap gap-4 justify-center"
             >
               <ButtonLink
-                href={personalInfo.resumeUrl}
+                href={personalInfo.resumeUrl ?? "/Muhammad-Jaffer-CV-25.7.pdf"}
                 newTab={true}
               >
                 <Download /> Download Resume
