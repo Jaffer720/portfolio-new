@@ -13,6 +13,7 @@ interface ButtonLinkProps {
   icon?: boolean;
   className?: string;
   newTab?: boolean;
+  download?: boolean;
 }
 
 export function ButtonLink({
@@ -22,6 +23,7 @@ export function ButtonLink({
   icon = false,
   className,
   newTab = false,
+  download = false,
 }: ButtonLinkProps) {
   const target = newTab ? "_blank" : undefined;
   const rel = newTab ? "noopener noreferrer" : undefined;
@@ -33,7 +35,7 @@ export function ButtonLink({
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
     >
       <Button variant={variant} asChild className={className}>
-        <Link href={href} target={target} rel={rel}>
+        <Link href={href} target={target} rel={rel} download={download}>
           {children}
           {icon && <ArrowRight className="ml-2 h-4 w-4" />}
         </Link>
